@@ -3,7 +3,7 @@ const readline = require("readline-sync");
 let somaPositivos = 0;
 
 while (true) {
-    let numero = Number(readline.question("Digite um número: "));
+let numero = Number(readline.question("Digite um numero: "));
 
     if (numero === 0) {
         break;
@@ -18,4 +18,3 @@ while (true) {
 console.log("");
 
 console.log("A soma dos números positivos é: " + somaPositivos);
-
